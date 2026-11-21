@@ -19,5 +19,8 @@ This repository contains the completed laboratory exercises for the Artificial I
 5. **Bayesian Networks Lab (`bn lab/`)**
    - Models simple Autoregressive Language Models using the chain rule of probability. Implements 1st and 2nd order Markov language generation using Conditional Probability Tables (CPT) and compares greedy versus probabilistic sampling.
 
+6. **Reinforcement Learning and Deep RL Lab (`RL lab/`)**
+   - Formulates warehouse robot navigation as a Markov Decision Process (MDP). Implements and validates Tabular Q-Learning with $\epsilon$-greedy exploration, replaces the tabular learner with a Deep Q-Network (DQN) in PyTorch, and scales to a centralized multi-agent controller for two robots coordinating through a narrow doorway with collision avoidance. Includes unit testing, seed variance analysis, additional-start generalization, and connections to RLHF.
+
 ## Usage
 The code is provided within Jupyter Notebooks (`.ipynb`). To run them, ensure you have Python 3 installed along with `jupyter`, `torch`, `matplotlib`, and `numpy`.
